@@ -2,15 +2,19 @@
 
 
 ## Magic: The Gathering Price Data Analysis
-This project explores current prices for Magic: The Gathering by gathering average card prices per card ID from retail providers like TCGPlayer, CardKingdom, and CardSphere. Hasbro does not publicly report on sales per released set, but we can use current pricing trends to show general interest and current value in sets and by years of release.  
+This project explores current prices for Magic: The Gathering by gathering average card prices per card ID from retail providers like Cardhoarder, CardKingdom, Cardmarket, Cardsphere, and TCGPlayer. Hasbro does not publicly report on sales per released set, but we can use current pricing trends to show general interest and current value in sets and by years of release.  
 
-To note, whenever multiple sources are tied to a single card, the notebook will average those market prices down to a single price per card. Card condition is not considered specifically, just average price points. Foils and non-foils are listed as a single UUID, so those are averaged together.
+To note, whenever multiple sources are tied to a single card, the notebook will average those market prices down to a single price per card. Card condition is not considered specifically, just average price points. Foils and non-foils are are not differentiated from price providers (unlike Pokemon), so those are averaged together ultimately.
 
 ## MTG Overview
 - MTG is the first modern, global trading card game (TCG) created, only now rivaled by Pokemon TCG.  
 - There are ~30k unique MTG cards and over 1 million individual cards when considering reprints, alt arts, languages, promos, foils, etc.  
 - There is an estimated 50 billion MTG cards printed since the games launch in 1993.  
 - Hasbro just announced its highest set sales with Final Fantasy in 2025.
+
+## Pokemon Notes
+- Pricing data is not granular enough to consider card condition or grading. Values are general TCG market prices.
+- Only english card versions
 
 ### How to Use
 1. Clone this repository.
