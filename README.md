@@ -20,7 +20,7 @@ To note, whenever multiple sources are tied to a single card, the notebook will 
 1. Clone this repository.
 2. Install the required Python packages:  
    pip install -r requirements.txt
-3. Open `analysisMagic.ipynb` in Jupyter Notebook or JupyterLab.
+3. Run all notebooks in VS Code, Jupyter Notebook, JupyterLab.
 
 ### Example Output
 As of August 26, 2025 - cards on average from MTG's release year, 1993, still hold the most value by over 6 times the next popular year, 2022.
@@ -46,6 +46,12 @@ Pokemon
 - pokemonGroups CSV file
     * showing set names, set codes, and release dates
     * provided by tcgcsv.com
+
+### Acknowledgements
+- Stack Overflow was used as a learning tool and debugging.
+- Python Documentation was used for syntax of some modules and methods.
+- Matplotlib.org was used for plotting syntax.
+- ChatGPT was used to used as a learning tool, for debugging, and for minor code generation.
 
 ### Author
 Curtis Schneider
