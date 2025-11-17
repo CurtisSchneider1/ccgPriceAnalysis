@@ -4,7 +4,7 @@
 ## Magic: The Gathering Price Data Analysis
 This project explores current prices for Magic: The Gathering by gathering average card prices per card ID from retail providers like Cardhoarder, CardKingdom, Cardmarket, Cardsphere, and TCGPlayer. Hasbro does not publicly report on sales per released set, but we can use current pricing trends to show general interest and current value in sets and by years of release.  
 
-To note, whenever multiple sources are tied to a single card, the notebook will average those market prices down to a single price per card. Card condition is not considered specifically, just average price points. Foils and non-foils are are not differentiated from price providers (unlike Pokemon), so those are averaged together ultimately.
+To note, whenever multiple price providers are tied to a single card, the notebook will average those market prices per card (per cardFinish per UUID). Card condition or card grade are not considered specifically, just market price. Foils and non-foils, even if sharing a UUID, are considered and priced separately.
 
 ## MTG Overview
 - MTG is the first modern, global trading card game (TCG) created, only now rivaled by Pokemon TCG.  
@@ -51,7 +51,7 @@ Pokemon
 - Stack Overflow was used as a learning tool and debugging.
 - Python Documentation was used for syntax of some modules and methods.
 - Matplotlib.org was used for plotting syntax.
-- ChatGPT was used to used as a learning tool, for debugging, and for minor code generation.
+- ChatGPT was used to used as a learning tool and for troubleshooting/debugging.
 
 ### Author
 Curtis Schneider
